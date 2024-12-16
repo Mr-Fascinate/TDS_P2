@@ -1,6 +1,10 @@
 # Automated Data Analysis Report
 
 ## Summary Statistics of the Dataset
+
+```shell
+
+
            book_id  goodreads_book_id  best_book_id       work_id   books_count  ...      ratings_1      ratings_2      ratings_3     ratings_4     ratings_5
 count  10000.00000       1.000000e+04  1.000000e+04  1.000000e+04  10000.000000  ...   10000.000000   10000.000000   10000.000000  1.000000e+04  1.000000e+04
 mean    5000.50000       5.264697e+06  5.471214e+06  8.646183e+06     75.712700  ...    1345.040600    3110.885000   11475.893800  1.996570e+04  2.378981e+04
@@ -12,8 +16,9 @@ min        1.00000       1.000000e+00  1.000000e+00  8.700000e+01      1.000000 
 max    10000.00000       3.328864e+07  3.553423e+07  5.639960e+07   3455.000000  ...  456191.000000  436802.000000  793319.000000  1.481305e+06  3.011543e+06
 
 [8 rows x 16 columns]
-
-## Missing Values and Outliers
+```
+## Missing Values
+```shell
 book_id                         0
 goodreads_book_id               0
 best_book_id                    0
@@ -38,7 +43,7 @@ ratings_5                       0
 image_url                       0
 small_image_url                 0
 dtype: int64
-
+##  Outliers
 book_id                         0
 goodreads_book_id             345
 best_book_id                  357
@@ -56,7 +61,7 @@ ratings_3                    1149
 ratings_4                    1131
 ratings_5                    1158
 dtype: int64
-
+```
 ## Correlation Matrix
 Below is the correlation matrix of numerical features:
 
